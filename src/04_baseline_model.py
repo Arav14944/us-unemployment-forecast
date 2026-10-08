@@ -1,3 +1,7 @@
+# this is the baseline model, of the form u(t) = u(t-1)
+# actually already very good. if we assume that this month's unemployment rate is the same as last months, we are off
+# on average by only 0.08 percentage points
+
 import pandas as pd
 from pathlib import Path
 import numpy as np
